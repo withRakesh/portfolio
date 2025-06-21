@@ -1,0 +1,87 @@
+ import React from "react";
+import { Link } from "react-scroll";
+import "./Header.css";
+import { Navbar, Nav, Container } from "react-bootstrap";
+
+const Header = () => {
+  return (
+    <Navbar className="navbar" sticky="top" bg="white" variant="light" expand="lg">
+      <Container>
+        <Navbar.Brand href="#">
+          <i>
+            Rake<span style={{ color: "red" }}>sH</span>
+          </i>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="main-navbar-nav" />
+        <Navbar.Collapse id="main-navbar-nav">
+          {/* Centered Nav Links */}
+          <Nav className="mx-auto d-flex gap-4">
+            <Link
+              className="nav-link text-secondary"
+              to="home"
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Home
+            </Link>
+            <Link
+              className="nav-link text-secondary"
+              to="about"
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              About
+            </Link>
+            <Link
+              className="nav-link text-secondary"
+              to="projects"
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Projects
+            </Link>
+            <Link
+              className="nav-link text-secondary"
+              to="contact"
+              smooth={true}
+              duration={500}
+              offset={-70}
+            >
+              Contact
+            </Link>
+          </Nav>
+
+          {/* Right-aligned Social Icons */}
+          <Nav className="ms-auto d-flex flex-row gap-2">
+            <Nav.Link
+              href="https://github.com/withRakesh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-github" style={{ color: "black", fontSize: "20px" }}></i>
+            </Nav.Link>
+            <Nav.Link
+              href="https://linkedin.com/in/rakesh19052005"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-linkedin" style={{ color: "black", fontSize: "20px" }}></i>
+            </Nav.Link>
+            <Nav.Link
+              href="https://wa.me/919876543210"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-whatsapp" style={{ color: "black", fontSize: "20px" }}></i>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+};
+
+export default Header;
