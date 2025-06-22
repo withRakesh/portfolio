@@ -1,24 +1,33 @@
  import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
-import htmllogo from '/src/assets/images/html.png'
- 
+import html from '/src/assets/images/html.png'
+ import css from '/src/assets/images/css.png'
+import javascript from '/src/assets/images/javascript.png'
+import bootstrap from '/src/assets/images/bootstrap.png'
+import react from '/src/assets/images/react.png'
+import framer from '/src/assets/images/framer.png'
+import node from '/src/assets/images/node.png'
+import express from '/src/assets/images/express.png'
+import mongo from '/src/assets/images/mongo.png'
+import git from '/src/assets/images/git.png'
+import github from '/src/assets/images/github.png'
 
  
 const TechStack = () => {
 
     const techLogos = [
-  { name: "HTML5", src: htmllogo },
-  { name: "CSS3", src: "/src/assets/images/css3.png" },
-  { name: "JavaScript", src: "/src/assets/images/javascript.png" },
-  { name: "React", src: "/src/assets/images/react.png" }, 
-  { name: "Bootstrap", src: "/src/assets/images/bootstrap.png" }, 
-    { name: "Framer Motion", src: "/src/assets/images/framer.png" }, 
-    { name: "Node js", src: "/src/assets/images/node.png" },  
-  { name: "Express js", src: "/src/assets/images/express.png" },   
-  { name: "Mongo db", src: "/src/assets/images/mongodb.png" },       
-  { name: "Git", src: "/src/assets/images/git.png" },
-    { name: "GitHub", src: "/src/assets/images/github.png" },
+  { name: "HTML5", src: html },
+  { name: "CSS3", src: css },
+  { name: "JavaScript",javascript  },
+  { name: "React", src: bootstrap  }, 
+  { name: "Bootstrap", src: react}, 
+    { name: "Framer motion", src: framer }, 
+    { name: "Node js", src: node },  
+  { name: "Express js", src: express  },   
+  { name: "Mongo db", src: mongo },       
+  { name: "Git", src: git },
+    { name: "GitHub", src:github },
        
    
 ];
