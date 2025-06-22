@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
-inport resume from '/src/assets/images/resume.pdf'
+import resume from '/src/assets/images/resume.pdf'
 
 const About = () => {
   return (
