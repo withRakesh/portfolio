@@ -19,7 +19,7 @@ const TechStack = () => {
     const techLogos = [
   { name: "HTML5", src: html },
   { name: "CSS3", src: css },
-  { name: "JavaScript",javascript  },
+  { name: "JavaScript", src:javascript  },
   { name: "Bootstrap", src: bootstrap  }, 
   { name: "React", src: react}, 
     { name: "Framer motion", src: framer }, 
