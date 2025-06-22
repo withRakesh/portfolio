@@ -8,7 +8,7 @@ const Footer = () => {
       <Container fluid>
         <Row>
            <Col md={4} className="text-center mb-3">
-            <h5 className="mb-3">Quick Links</h5>
+            <h6 className="mb-3">Quick Links</h6>
             <ul style={{ listStyle: "none ", paddingLeft: 0 }} className="d-flex flex-column gap-3">
                <Link to="home" style={{color:"gray"}}>Home</Link>
                <Link to="about" style={{color:"gray"}}>About</Link>

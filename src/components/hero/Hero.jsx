@@ -2,6 +2,8 @@ import React from "react";
 import "./Hero.css"
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { motion } from "framer-motion";
+import profile from "/src/assets/images/Rakeshprofile.png"
+ 
 
 export const Hero = () => {
   return (
@@ -12,7 +14,7 @@ export const Hero = () => {
     viewport={{once:true, amount:0.3}}
     >
       <section className="HeroSection py-5 bg-white" id='home'> 
-        <Container className="py-3">
+        <Container >
           <Row className="align-items-center">
             {/* Left Side: Content */}
             <Col
@@ -24,17 +26,14 @@ export const Hero = () => {
               <p className="lead text-secondary">
                 A passionate MERN Stack Developer focused on building beautiful and functional full-stack web applications with seamless user experiences.
               </p>
-              <Button variant="secondary" size="md">
-                My Works
-              </Button>
             </Col>
 
             {/* Right Side: Image */}
             <Col xs={12} md={6} className="text-center">
               <img
-                src="\src\assets\images\Rakeshprofile.png"
+                src={profile}
                 alt="Hero"
-                className="img-fluid  rounded-circle shadow "
+                className="img-fluid  rounded-circle shadow border"
               />
             </Col>
           </Row>

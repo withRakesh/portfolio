@@ -15,13 +15,14 @@ const Header = () => {
         <Navbar.Toggle aria-controls="main-navbar-nav" />
         <Navbar.Collapse id="main-navbar-nav">
           {/* Centered Nav Links */}
-          <Nav className="mx-auto d-flex gap-4">
+          <Nav className="mx-auto d-flex gap-4 ">
             <Link
-              className="nav-link text-secondary"
+              className="nav-link text-secondary  "
               to="home"
               smooth={true}
               duration={500}
               offset={-70}
+              activeClass="active"
             >
               Home
             </Link>
@@ -31,6 +32,7 @@ const Header = () => {
               smooth={true}
               duration={500}
               offset={-70}
+               activeClass="active"
             >
               About
             </Link>
@@ -40,6 +42,7 @@ const Header = () => {
               smooth={true}
               duration={500}
               offset={-70}
+               activeClass="active"
             >
               Projects
             </Link>
@@ -49,6 +52,7 @@ const Header = () => {
               smooth={true}
               duration={500}
               offset={-70}
+               activeClass="active"
             >
               Contact
             </Link>
@@ -71,7 +75,7 @@ const Header = () => {
               <i className="fab fa-linkedin" style={{ color: "black", fontSize: "20px" }}></i>
             </Nav.Link>
             <Nav.Link
-              href="https://wa.me/919876543210"
+              href=" https://wa.me/918072752955"
               target="_blank"
               rel="noopener noreferrer"
             >
