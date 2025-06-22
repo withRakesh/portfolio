@@ -9,7 +9,7 @@ import react from '/src/assets/images/react.png'
 import framer from '/src/assets/images/framer.png'
 import node from '/src/assets/images/node.png'
 import express from '/src/assets/images/express.png'
-import mongo from '/src/assets/images/mongo.png'
+import mongo from '/src/assets/images/mongodb.png'
 import git from '/src/assets/images/git.png'
 import github from '/src/assets/images/github.png'
 
