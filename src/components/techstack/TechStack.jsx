@@ -1,7 +1,7 @@
  import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
-import htmllogo from '../src/assets/images/html.png'
+import htmllogo from '/src/assets/images/html.png'
  
 
  
