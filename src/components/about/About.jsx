@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
+inport resume from '/src/assets/images/resume.pdf'
 
 const About = () => {
   return (
@@ -23,7 +24,7 @@ const About = () => {
                 creating scalable, responsive, and user-friendly solutions using
                 MongoDB, Express.js, React.js, and Node.js.
               </p>
-              <a href="\src\assets\images\Resume.pdf" download>
+              <a href={resume} download>
                 <button  className="mt-3 px-4 py-2 fw-semibold">
                   Download CV
                 </button>
