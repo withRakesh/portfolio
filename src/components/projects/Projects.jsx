@@ -34,7 +34,7 @@ const Projects = () => {
         <h2 className="fw-bold text-dark mb-2 text-center" id="projects">Projects</h2>
         <Row className="p-4">
           {projects.map((project, index) => (
-            <Col key={index} md={4} xs={12}>
+            <Col key={index} md={6} xs={12} lg={4}>
               <Card className="overflow-hidden  mb-4 "  >
                 <motion.img initial={{scale:1.05}}  whileHover={{scale:1.10, }}  src={project.Img} style={{height:"200px"}}>
                     
