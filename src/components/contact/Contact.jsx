@@ -39,7 +39,7 @@ const Contact = () => {
           <h3 className=" text-center fw-bold ">Contact</h3>
           <Container className="p-3">
             <Row className="gap-4">
-              <Col className="bg-light p-3 d-flex justify-content-center">
+              <Col className=" md={6} xs={12} bg-light p-3 d-flex justify-content-center">
                 <div className="p-5">
                   <h6 className="fw-bold">Email :</h6>
                   <h6 className="text-muted">rakesh2003cs@gmail.com</h6>
