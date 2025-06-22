@@ -2,7 +2,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
 import html from '/src/assets/images/html.png'
- import css from '/src/assets/images/css.png'
+ import css from '/src/assets/images/css3.png'
 import javascript from '/src/assets/images/javascript.png'
 import bootstrap from '/src/assets/images/bootstrap.png'
 import react from '/src/assets/images/react.png'
