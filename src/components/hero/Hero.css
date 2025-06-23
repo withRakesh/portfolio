@@ -1,1 +1,28 @@
+.gradient-ring {
+  background: linear-gradient(135deg, #f00, #fa8282, #f00);
+  background-size: 200% 200%;
+  animation: gradient-rotate 10s linear infinite;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+@keyframes gradient-rotate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.dashed-border {
+  border: 4px dashed #f00;
+  border-radius: 50%;
+  padding: 8px;
+}
+ 
  

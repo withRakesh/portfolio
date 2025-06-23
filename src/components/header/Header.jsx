@@ -1,11 +1,17 @@
- import React from "react";
+import React from "react";
 import { Link } from "react-scroll";
 import "./Header.css";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <Navbar className="navbar" sticky="top" bg="white" variant="light" expand="lg">
+    <Navbar
+      className="navbar"
+      sticky="top"
+      bg="white"
+      variant="light"
+      expand="lg"
+    >
       <Container>
         <Navbar.Brand href="#">
           <i>
@@ -32,7 +38,7 @@ const Header = () => {
               smooth={true}
               duration={500}
               offset={-70}
-               activeClass="active"
+              activeClass="active"
             >
               About
             </Link>
@@ -42,7 +48,7 @@ const Header = () => {
               smooth={true}
               duration={500}
               offset={-70}
-               activeClass="active"
+              activeClass="active"
             >
               Projects
             </Link>
@@ -52,34 +58,42 @@ const Header = () => {
               smooth={true}
               duration={500}
               offset={-70}
-               activeClass="active"
+              activeClass="active"
             >
               Contact
             </Link>
           </Nav>
 
-          
           <Nav className="ms-auto d-flex flex-row gap-2">
             <Nav.Link
               href="https://github.com/withRakesh"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-github" style={{ color: "black", fontSize: "20px" }}></i>
+              <i
+                className="fab fa-github"
+                style={{ color: "black", fontSize: "20px" }}
+              ></i>
             </Nav.Link>
             <Nav.Link
               href="https://linkedin.com/in/rakesh19052005"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-linkedin" style={{ color: "black", fontSize: "20px" }}></i>
+              <i
+                className="fab fa-linkedin"
+                style={{ color: "black", fontSize: "20px" }}
+              ></i>
             </Nav.Link>
             <Nav.Link
               href=" https://wa.me/918072752955"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-whatsapp" style={{ color: "black", fontSize: "20px" }}></i>
+              <i
+                className="fab fa-whatsapp"
+                style={{ color: "black", fontSize: "20px" }}
+              ></i>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

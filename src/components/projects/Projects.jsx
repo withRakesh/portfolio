@@ -1,4 +1,4 @@
- import React from "react";
+import React from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
 import weatherImg from "/src/assets/images/weather.png";
@@ -35,9 +35,11 @@ const Projects = () => {
 
   return (
     <div>
-      <Container className="my-5">
-        <h4 className="fw-bold text-dark mb-2 text-center" id="projects">Projects</h4>
-        <Row className="g-4" xs={1} md={3}>
+      <Container className="my-2">
+        <h4 className="fw-bold text-dark mb-2 text-center mb-4" id="projects">
+          Projects
+        </h4>
+        <Row className="g-4 p-3" xs={1} md={3}>
           {projects.map((project, index) => (
             <Col key={index} sm={12} md={6} lg={4} className="mb-4 d-flex">
               <Card className="h-100  d-flex flex-column justify-content-between overflow-hidden">
@@ -51,15 +53,28 @@ const Projects = () => {
                 />
                 <Card.Body className="d-flex flex-column flex-grow-1">
                   <Card.Title>{project.title}</Card.Title>
-                  <Card.Text className="text-muted flex-grow-1">{project.description}</Card.Text>
+                  <Card.Text className="text-muted flex-grow-1">
+                    {project.description}
+                  </Card.Text>
                   <Row>
-                    <Col className="mb-2 " >
-                      <a href={project.link} className="fs-6 text-dark " target="_blank" rel="noopener noreferrer">
-                        <i className="fas fa-arrow-up-right-from-square mx-1"></i>Live Demo
+                    <Col className="mb-2 ">
+                      <a
+                        href={project.link}
+                        className="fs-6 text-dark "
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fas fa-arrow-up-right-from-square mx-1"></i>
+                        Live Demo
                       </a>
                     </Col>
-                    <Col className="text-end" >
-                      <a href={project.githubLink} className="text-dark" target="_blank" rel="noopener noreferrer">
+                    <Col className="text-end">
+                      <a
+                        href={project.githubLink}
+                        className="text-dark"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i className="fab fa-github fs-3"></i>
                       </a>
                     </Col>

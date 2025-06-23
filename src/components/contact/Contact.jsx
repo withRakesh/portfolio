@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_4pzxer9","template_fq7j5ni", form.current, {
+      .sendForm("service_4pzxer9", "template_fq7j5ni", form.current, {
         publicKey: "_nhmAJ_iKdWzL13Oh",
       })
       .then(() => {
@@ -41,11 +41,17 @@ const Contact = () => {
             <Row className="gap-4">
               <Col className=" md={6} xs={12} bg-light p-3 d-flex justify-content-center">
                 <div className="p-5">
-                  <h6 className="fw-bold">Email :</h6>
+                  <h6 className="fw-bold">
+                    <i className="fas fa-envelope"></i> Email :
+                  </h6>
                   <h6 className="text-muted">rakesh2003cs@gmail.com</h6>
-                  <h6 className="fw-bold">Phone no :</h6>
+                  <h6 className="fw-bold">
+                    <i className="fas fa-phone "></i> Phone no :
+                  </h6>
                   <h6 className="text-muted">8072752955</h6>
-                  <h6 className="fw-bold">Adresss :</h6>
+                  <h6 className="fw-bold">
+                    <i className="fas fa-map-marker-alt"></i> Adresss :
+                  </h6>
                   <p className="text-muted">
                     6/76 pillayar kovil street, Vagaikulam, pettai - 627010,
                     Tirunelveli
@@ -53,7 +59,7 @@ const Contact = () => {
                 </div>
               </Col>
 
-              <Col xs={12} lg={6}  className="h-100 py-3">
+              <Col xs={12} lg={6} className="h-100 py-3">
                 <form ref={form} onSubmit={sendEmail}>
                   <Row>
                     <Col xs={12} md={6}>
@@ -116,7 +122,7 @@ const Contact = () => {
                   </div>
                 </form>
                 {status === "success" && (
-                  <Alert variant="success" className="mt-3">
+                  <Alert variant="secondary" className="mt-3">
                     Message sent successfully!
                   </Alert>
                 )}

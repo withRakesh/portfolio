@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
- 
 
 const About = () => {
   return (
@@ -10,9 +9,8 @@ const About = () => {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true, amount: 0.3 }}
-     
     >
-      <section  id="about" >
+      <section id="about">
         <Container className="bg-light p-5">
           <Row className="gap-5">
             <Col xs="12" md="6">
@@ -25,8 +23,13 @@ const About = () => {
                 creating scalable, responsive, and user-friendly solutions using
                 MongoDB, Express.js, React.js, and Node.js.
               </p>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"  download>
-                <button  className="mt-3 px-4 py-2 fw-semibold">
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+              >
+                <button className="mt-3 px-4 py-2 fw-semibold">
                   Download CV
                 </button>
               </a>

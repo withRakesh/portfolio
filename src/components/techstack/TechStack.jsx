@@ -34,14 +34,15 @@ const TechStack = () => {
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true, amount: 0.3 }}
+      className="py-4"
     >
-      <section className="py-5 text-center">
+      <section className="py-3 mt-3 text-center">
         <Container>
           <h2 className="fw-bold text-dark mb-2">My Tech Stack</h2>
           <p className="text-muted mb-5">
             Technologies I’ve been working with recently
           </p>
-          <Row className="justify-content-center g-4">
+          <Row className="justify-content-center g-4 mb-5">
             {techLogos.map((tech, idx) => (
               <Col key={idx} xs={4} sm={3} md={2} lg={3}>
                 <img
