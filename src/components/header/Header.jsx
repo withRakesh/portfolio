@@ -17,7 +17,7 @@ const Header = () => {
           {/* Centered Nav Links */}
           <Nav className="mx-auto d-flex gap-4 ">
             <Link
-              className="nav-link text-secondary  "
+              className="navbar-link text-secondary  text-decoration-none"
               to="home"
               smooth={true}
               duration={500}
@@ -27,7 +27,7 @@ const Header = () => {
               Home
             </Link>
             <Link
-              className="nav-link text-secondary"
+              className="navbar-link text-secondary  text-decoration-none"
               to="about"
               smooth={true}
               duration={500}
@@ -37,7 +37,7 @@ const Header = () => {
               About
             </Link>
             <Link
-              className="nav-link text-secondary"
+              className="navbar-link text-secondary  text-decoration-none"
               to="projects"
               smooth={true}
               duration={500}
@@ -47,7 +47,7 @@ const Header = () => {
               Projects
             </Link>
             <Link
-              className="nav-link text-secondary"
+              className="navbar-link text-secondary  text-decoration-none"
               to="contact"
               smooth={true}
               duration={500}
@@ -58,7 +58,7 @@ const Header = () => {
             </Link>
           </Nav>
 
-          {/* Right-aligned Social Icons */}
+          
           <Nav className="ms-auto d-flex flex-row gap-2">
             <Nav.Link
               href="https://github.com/withRakesh"
