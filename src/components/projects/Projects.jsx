@@ -35,12 +35,12 @@ const Projects = () => {
   return (
     <div>
       <Container>
-        <h2 className="fw-bold text-dark mb-2 text-center" id="projects">Projects</h2>
+        <h4 className="fw-bold text-dark mb-2 text-center" id="projects">Projects</h4>
         <Row className="p-4">
           {projects.map((project, index) => (
             <Col key={index} md={6} xs={12} lg={4}>
               <Card className="overflow-hidden  mb-4 "  style={{height:"400px"}}>
-                <motion.img initial={{scale:1.05}}  whileHover={{scale:1.10, }}  src={project.Img} style={{height:"200px", width:"420px", objectFit:"cover"}}>
+                <motion.img initial={{scale:1.05}} variants={{top}}  whileHover={{scale:1.10, }} style={{height:"200px"}} src={project.Img} >
                     
                 </motion.img>
                 <Card.Body>

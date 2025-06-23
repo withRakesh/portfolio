@@ -36,7 +36,7 @@ const Contact = () => {
     <div>
       <Container className="h-100 py-5" id="contact">
         <Row>
-          <h3 className=" text-center fw-bold ">Contact</h3>
+          <h4 className=" text-center fw-bold ">Contact</h4>
           <Container className="p-3">
             <Row className="gap-4">
               <Col className=" md={6} xs={12} bg-light p-3 d-flex justify-content-center">

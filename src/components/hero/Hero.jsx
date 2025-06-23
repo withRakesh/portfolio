@@ -14,7 +14,7 @@ export const Hero = () => {
     viewport={{once:true, amount:0.3}}
     >
       <section className="HeroSection py-5 bg-white" id='home'> 
-        <Container >
+        <Container className="p-lg-5">
           <Row className="align-items-center">
             {/* Left Side: Content */}
             <Col

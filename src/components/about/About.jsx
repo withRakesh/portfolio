@@ -10,8 +10,9 @@ const About = () => {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true, amount: 0.3 }}
+     
     >
-      <section  id="about">
+      <section  id="about" >
         <Container className="bg-light p-5">
           <Row className="gap-5">
             <Col xs="12" md="6">
