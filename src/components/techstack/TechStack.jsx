@@ -58,8 +58,6 @@ const TechStack = () => {
                 <h6>{tech.name}</h6>
               </Col>
             ))}
-
-            <col />
           </Row>
           <hr />
         </Container>

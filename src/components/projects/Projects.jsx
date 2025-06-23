@@ -40,7 +40,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Col key={index} md={6} xs={12} lg={4}>
               <Card className="overflow-hidden  mb-4 "  style={{height:"400px"}}>
-                <motion.img initial={{scale:1.05}}  whileHover={{scale:1.10, }}  src={project.Img}>
+                <motion.img initial={{scale:1.05}}  whileHover={{scale:1.10, }}  src={project.Img} style={{height:"200px", width:"420px", objectFit:"cover"}}>
                     
                 </motion.img>
                 <Card.Body>
