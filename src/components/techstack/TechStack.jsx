@@ -18,8 +18,8 @@ const TechStack = () => {
     { name: "HTML5", src: html },
     { name: "CSS3", src: css },
     { name: "JavaScript", src: javascript },
-    { name: "React", src: bootstrap },
-    { name: "Bootstrap", src: react },
+    { name: "React", src: react },
+    { name: "Bootstrap", src: bootstrap },
     { name: "Framer Motion", src: framer },
     { name: "Node js", src: node },
     { name: "Express js", src: express },
@@ -38,7 +38,7 @@ const TechStack = () => {
     >
       <section className="py-3 mt-3 text-center">
         <Container>
-          <h2 className="fw-bold text-dark mb-2">My Tech Stack</h2>
+          <h4 className="fw-bold text-dark mb-2">My Tech Stack</h4>
           <p className="text-muted mb-5">
             Technologies I’ve been working with recently
           </p>

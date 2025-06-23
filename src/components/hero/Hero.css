@@ -1,5 +1,5 @@
 .gradient-ring {
-  background: linear-gradient(135deg, #f00, #fa8282, #f00);
+  background: linear-gradient(135deg, #f00, #fa8a8a, #f00);
   background-size: 200% 200%;
   animation: gradient-rotate 10s linear infinite;
   border-radius: 50%;
