@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
-import resumePDF from "/src/assets/images/resume.pdf";
+import resumePdf from '../../assets/images/resume.pdf';
  
 
 const About = () => {
@@ -26,7 +26,7 @@ const About = () => {
                 creating scalable, responsive, and user-friendly solutions using
                 MongoDB, Express.js, React.js, and Node.js.
               </p>
-              <a href={resumePDF} target="_blank" rel="noopener noreferrer"  download>
+              <a href={resumePdf} target="_blank" rel="noopener noreferrer"  download>
                 <button  className="mt-3 px-4 py-2 fw-semibold">
                   Download CV
                 </button>
