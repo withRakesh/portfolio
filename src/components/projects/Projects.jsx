@@ -1,18 +1,22 @@
 import React from "react";
 import { Card, CardImg, CardTitle, Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
+import weatherImg from "/src/assets/images/weather.png"
+import ecommerceImg from "/src/assets/images/ecommerce.webp"
+import financeImg from "/src/assets/images/finance.webp"
+
  
 const Projects = () => {
   const projects = [
     {
-      Img: "/src/assets/images/weather.png",
+      Img: weatherImg,
       title: "Weather App",
       description:"A simple and responsive weather app where users can check real-time weather details like temperature, humidity, and wind for any city.",
       link: "https://weatherdashboardnm1.netlify.app/",
       githubLink: "https://github.com/withRakesh/weatherDashboard",
     },
     {
-      Img: "/src/assets/images/ecommerce.webp",
+      Img:  ecommerceImg,
       title: "E-commerce website",
       description:
         "Built a MERN-based eCommerce site with user login, product browsing, secure checkout, and real-time admin management.",
@@ -20,7 +24,7 @@ const Projects = () => {
       githubLink: " ",
     },
     {
-      Img: "/src/assets/images/ecommerce.webp",
+      Img:  financeImg,
       title: "Personal Finance Tracker",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt ut labore et.",
