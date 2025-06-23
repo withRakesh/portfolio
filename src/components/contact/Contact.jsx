@@ -53,7 +53,7 @@ const Contact = () => {
                 </div>
               </Col>
 
-              <Col xs={12} md={6} className="h-100 py-3">
+              <Col xs={12} lg={6}  className="h-100 py-3">
                 <form ref={form} onSubmit={sendEmail}>
                   <Row>
                     <Col xs={12} md={6}>

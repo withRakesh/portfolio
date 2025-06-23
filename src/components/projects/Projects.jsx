@@ -35,18 +35,19 @@ const Projects = () => {
 
   return (
     <div>
-      <Container>
+      <Container className="my-5">
         <h4 className="fw-bold text-dark mb-2 text-center" id="projects">Projects</h4>
-        <Row className="p-4">
+        <Row className="g-4" xs={1} md={3}>
           {projects.map((project, index) => (
-            <Col key={index} sm={12} md={4} className="mb-4 d-flex">
-              <Card className="h-100 w-100 d-flex flex-column overflow-hidden">
+            <Col key={index} sm={12} md={6} lg={4} className="mb-4 d-flex">
+              <Card className="h-100  d-flex flex-column justify-content-between overflow-hidden">
                 <motion.img
                   initial={{ scale: 1.05 }}
                   whileHover={{ scale: 1.1 }}
                   style={{ height: "200px", objectFit: "cover" }}
                   src={project.Img}
                   alt={project.title}
+                  variants={top}
                 />
                 <Card.Body className="d-flex flex-column flex-grow-1">
                   <Card.Title>{project.title}</Card.Title>
