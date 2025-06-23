@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
+import html from "/src/assets/images/html.png"
 
 const TechStack = () => {
   const techLogos = [
-    { name: "HTML5", src: "/src/assets/images/html.png" },
+    { name: "HTML5", src: html },
     { name: "CSS3", src: "/src/assets/images/css3.png" },
     { name: "JavaScript", src: "/src/assets/images/javascript.png" },
     { name: "React", src: "/src/assets/images/react.png" },
