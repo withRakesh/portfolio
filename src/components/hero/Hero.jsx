@@ -15,7 +15,6 @@ export const Hero = () => {
       <section className="HeroSection py-5 bg-white" id="home">
         <Container className="p-lg-5">
           <Row className="align-items-center">
-            {/* Left Side: Content */}
             <Col
               xs={12}
               md={6}
@@ -32,8 +31,6 @@ export const Hero = () => {
                 applications with seamless user experiences.
               </p>
             </Col>
-
-            {/* Right Side: Image */}
             <Col xs={12} md={6} className="text-center">
               <img
                 src={profile}

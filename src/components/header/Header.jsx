@@ -20,7 +20,6 @@ const Header = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="main-navbar-nav" />
         <Navbar.Collapse id="main-navbar-nav">
-          {/* Centered Nav Links */}
           <Nav className="mx-auto d-flex gap-4 ">
             <Link
               className="navbar-link text-secondary  text-decoration-none"
