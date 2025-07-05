@@ -2,8 +2,8 @@ import React from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
 import weatherImg from "/src/assets/images/weather.png";
-import ecommerceImg from "/src/assets/images/ecommerce.webp";
-import financeImg from "/src/assets/images/finance.webp";
+import ecommerceImg from "/src/assets/images/ecom.png";
+import financeImg from "/src/assets/images/task.png";
 
 const Projects = () => {
   const projects = [
@@ -25,11 +25,11 @@ const Projects = () => {
     },
     {
       Img: financeImg,
-      title: "Personal Finance Tracker",
+      title: "Task Manager",
       description:
-        "A simple tool to track your expenses and income over time with data visualization and monthly summaries.",
-      link: " ",
-      githubLink: " ",
+        "A lightweight, responsive Task Manager web application built using HTML, CSS, JavaScript, and Bootstrap. It allows users to Create, Read, Update, and Delete (CRUD) tasks, with persistent storage using browser Local Storage.",
+      link: "https://taskmanger-app.netlify.app/",
+      githubLink: "https://github.com/withRakesh/Task-Manager-CRUD",
     },
   ];
 
