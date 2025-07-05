@@ -17,11 +17,11 @@ const Projects = () => {
     },
     {
       Img: ecommerceImg,
-      title: "E-commerce website",
+      title: "ElectroKart",
       description:
-        "Built a MERN-based eCommerce site with user login, product browsing, secure checkout, and real-time admin management.",
-      link: " ",
-      githubLink: " ",
+        "Developed a responsive e-commerce website for electronics laptops, watches, headphone.",
+      link: "https://electrolart.netlify.app/",
+      githubLink: "https://github.com/withRakesh/Ecommerce",
     },
     {
       Img: financeImg,
