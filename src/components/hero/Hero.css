@@ -1,9 +1,14 @@
 .gradient-ring {
-  background: linear-gradient(135deg, #f00, #fa8a8a, #f00);
+  background:#b7f7fc;
   background-size: 200% 200%;
-  animation: gradient-rotate 10s linear infinite;
-  border-radius: 50%;
-  padding: 1px;
+  padding: 4px;
+  clip-path: polygon(0 0, 100% 5%, 95% 100%, 0% 95%); /* Custom shape */
+ 
+}
+
+.gradient-ring:hover {
+  transform: scale(1.05);
+ 
 }
 
 @keyframes gradient-rotate {
@@ -18,6 +23,50 @@
   }
 }
 
+.dashed-border {
+  border: 3px dashed #0090ff;
+  padding: 20px;
+  clip-path: polygon(5% 0, 100% 10%, 95% 100%, 0% 90%);
+  box-shadow: inset 0 0 8px rgba(0, 136, 255, 0.2);
+  transition: all 0.3s ease;
+ 
+    
+}
+
+ 
+
+.pic{
+transform: rotate(5deg);
+}
+
+
+
+
+
+/* .gradient-ring {
+background: linear-gradient(135deg, #f00, #fa8a8a, #f00);
+  background-size: 200% 200%;
+  animation: gradient-rotate 10s linear infinite  ;
+  padding: 6px;
+  display: inline-block;
+  transition: border-radius 1s ease-in-out;
+   box-shadow: 0 0 15px rgba(255, 0, 0, 0.4), 0 0 30px rgba(250, 138, 138, 0.3);
+}
+
+@keyframes gradient-rotate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+ 
+
 
 .dashed-border {
   border: 4px dashed #f00;
@@ -25,4 +74,4 @@
   padding: 8px;
 }
  
- 
+  */

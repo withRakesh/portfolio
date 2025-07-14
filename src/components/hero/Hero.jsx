@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { motion } from "framer-motion";
-import profile from "/src/assets/images/Rakeshprofile.png";
+import profile from "/src/assets/images/rakeshprofile.webp";
 
 export const Hero = () => {
   return (
@@ -32,11 +32,15 @@ export const Hero = () => {
               </p>
             </Col>
             <Col xs={12} md={6} className="text-center">
-              <img
+
+            <div className="dashed-border  shadow border position-relative  gradient-ring">
+                            <img
                 src={profile}
                 alt="Hero"
-                className="dashed-border  position-relative img-fluid  shadow border gradient-ring  responsive-profile-img"
+                className="  img-fluid  pic responsive-profile-img"
               />
+            </div>
+ 
             </Col>
           </Row>
         </Container>

@@ -23,7 +23,7 @@ body{
   left: 0;
   height: 2px;
   width: 0%;
-  background-color: red;
+  background-color: #b7f7fc;
   transition: width 0.3s ease-in-out;
 }
 
