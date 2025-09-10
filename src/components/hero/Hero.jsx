@@ -1,8 +1,7 @@
 import React from "react";
-import "./Hero.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { motion } from "framer-motion";
-import profile from "/src/assets/images/rakeshprofile.webp";
+import profile from "/src/assets/images/profile.webp";
 
 export const Hero = () => {
   return (
@@ -12,8 +11,8 @@ export const Hero = () => {
       transition={{ duration: 2.5 }}
       viewport={{ once: true, amount: 0.3 }}
     >
-      <section className="HeroSection py-5 bg-white" id="home">
-        <Container className="p-lg-5">
+      <section className="HeroSection bg-light " id="home" >
+        <Container style={{paddingTop:'60px'}} >
           <Row className="align-items-center">
             <Col
               xs={12}
@@ -31,16 +30,15 @@ export const Hero = () => {
                 applications with seamless user experiences.
               </p>
             </Col>
-            <Col xs={12} md={6} className="text-center">
-
-            <div className="dashed-border  shadow border position-relative  gradient-ring">
-                            <img
-                src={profile}
-                alt="Hero"
-                className="  img-fluid  pic responsive-profile-img"
-              />
-            </div>
- 
+            <Col xs={12} md={6} >
+              <div className="bg-white rounded">
+                <img
+                  src={profile}
+                  alt="Hero"
+                  className="img-fluid "
+                   
+                />
+              </div>
             </Col>
           </Row>
         </Container>

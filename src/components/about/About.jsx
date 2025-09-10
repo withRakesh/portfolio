@@ -10,8 +10,8 @@ const About = () => {
       transition={{ duration: 0.8 }}
       viewport={{ once: true, amount: 0.3 }}
     >
-      <section id="about">
-        <Container className="bg-light p-5">
+      <section id="about ">
+        <Container className="p-5 bg-light my-5" >
           <Row className="gap-5">
             <Col xs="12" md="6">
               <h4 className="fw-bold mb-3" style={{ color: "#42446E" }}>
