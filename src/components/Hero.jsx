@@ -1,11 +1,11 @@
 function Hero() {
   const roles = ['Full Stack Developer', 'MERN Developer', 'Java Developer']
   const slideItems = [...roles, roles[0]]
-const socials = [
-  { icon: 'https://res.cloudinary.com/izq5hlmv/image/upload/v1788161464/github.png', href: 'https://github.com/yourusername' },
-  { icon: 'https://res.cloudinary.com/izq5hlmv/image/upload/v1788161463/linkedin.png', href: 'https://linkedin.com/in/yourusername' },
-  { icon: 'https://res.cloudinary.com/izq5hlmv/image/upload/v1788161463/gmail.png', href: 'mailto:your.email@example.com' },
-]
+  const socials = [
+    { icon: 'https://res.cloudinary.com/izq5hlmv/image/upload/v1788161464/github.png', href: 'https://github.com/yourusername' },
+    { icon: 'https://res.cloudinary.com/izq5hlmv/image/upload/v1788161463/linkedin.png', href: 'https://linkedin.com/in/yourusername' },
+    { icon: 'https://res.cloudinary.com/izq5hlmv/image/upload/v1788161463/gmail.png', href: 'mailto:your.email@example.com' },
+  ]
 
   return (
     <section
@@ -72,7 +72,7 @@ const socials = [
         </div>
 
         {/* RIGHT: socials + I am Rakesh */}
-        <div className="flex flex-col items-start md:items-end gap-10">
+        <div className="flex flex-col items-center  md:items-end gap-10">
           <div className="flex md:flex-col gap-4">
             {socials.map((social, index) => (
               <div key={social.label} className="flex items-center gap-3">
@@ -80,24 +80,22 @@ const socials = [
                   <span className="hidden md:block w-px h-6 bg-accent/40 mx-auto"></span>
                 )}
                 <a
-                 
-
-  href={social.href}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="w-8 h-8 rounded-full border border-white/10 bg-white flex items-center justify-center overflow-hidden hover:border-accent transition"
->
-  <img
-    src={social.icon}
-    alt=""
-    className="w-6 h-6 object-contain"
-  />
-</a>
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-8 h-8 rounded-full border border-white/10 bg-white flex items-center justify-center overflow-hidden hover:border-accent transition"
+                >
+                  <img
+                    src={social.icon}
+                    alt=""
+                    className="w-6 h-6 object-contain"
+                  />
+                </a>
               </div>
             ))}
           </div>
 
-          <div className="text-2xl md:text-4xl font-extrabold text-white mb-4">
+          <div className="text-2xl md:text-4xl text-center font-extrabold text-white mb-4">
 
             <span className="text-accent">&lt;/</span>
             <span className="text-white">Learner</span>
