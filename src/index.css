@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #DC143C;      /* main brand red */
+  --color-accent-hover: #b91c1c; /* darker red for hover */
+  --color-bg: #000000;           /* page background */
+  --color-panel: #0d0d0d;        /* section background */
+  --color-card: #161616;         /* card background */
+  --color-muted: #9ca3af;        /* muted text */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+ 
+
+@keyframes roleSlide {
+  0%, 20% { transform: translateY(0%); }
+  25%, 45% { transform: translateY(-25%); }
+  50%, 70% { transform: translateY(-50%); }
+  75%, 95% { transform: translateY(-75%); }
+  100% { transform: translateY(-100%); }
+}
+
+.animate-role-slide {
+  animation: roleSlide  15s ease-in-out infinite;
+}
+
+.blob-mask {
+  border-radius: 62% 38% 55% 45% / 55% 45% 55% 45%;
+}
+
+@keyframes blobPulse {
+  0%, 100% { border-radius: 62% 38% 55% 45% / 55% 45% 55% 45%; }
+  50% { border-radius: 45% 55% 40% 60% / 50% 55% 45% 50%; }
+}
+
+.animate-blob {
+  animation: blobPulse 8s ease-in-out infinite;
+} 
