@@ -15,7 +15,7 @@ function Navbar() {
     <header className="fixed top-0 w-full z-50 bg-bg/90 backdrop-blur border-b border-white/10">
       <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
         <a href="#home" className="font-bold text-lg text-white">
-          R<span className="text-accent">.</span>
+          RAKESH
         </a>
 
         <ul className="hidden md:flex gap-8 text-sm font-medium tracking-wide text-white">
