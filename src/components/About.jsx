@@ -16,11 +16,8 @@ function About() {
           </h2>
 
           <p className="text-muted leading-relaxed mb-8">
-            I'm Rakesh, an MCA final year student passionate about full-stack
-            development. I enjoy building real-world applications end-to-end
-            using the MERN stack and Java with Spring Boot, and I'm currently
-            preparing for technical recruitment while sharpening my skills
-            through hands-on projects.
+          I'm a B.Sc. Computer Science graduate passionate about full-stack development. I enjoy building real-world applications using the MERN stack. I also have basic knowledge of Java and I'm currently improving my skills through real-world projects while preparing for technical job opportunities.
+
           </p>
 
           {/* <div className="grid grid-cols-2 gap-3 mb-8">

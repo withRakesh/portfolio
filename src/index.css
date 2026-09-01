@@ -10,7 +10,15 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Space Grotesk", sans-serif;
 }
 
 @keyframes marquee {
@@ -67,3 +75,34 @@ body {
 }
 
  
+@keyframes drift1 {
+  0%, 100% { top: -8rem; left: -8rem; }
+  50% { top: -4rem; left: 2rem; }
+}
+
+@keyframes drift2 {
+  0%, 100% { bottom: 0; right: 0; }
+  50% { bottom: 3rem; right: 5rem; }
+}
+
+.animate-drift1 {
+  animation: drift1 14s ease-in-out infinite;
+}
+
+.animate-drift2 {
+  animation: drift2 16s ease-in-out infinite;
+}
+
+
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-up {
+  animation: fadeSlideUp 0.8s ease-out both;
+}
+
+.delay-1 { animation-delay: 0.15s; }
+.delay-2 { animation-delay: 0.35s; }
+.delay-3 { animation-delay: 0.55s; }
