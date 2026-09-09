@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 function Hero() {
-  const roles = ['Full Stack Developer', 'MERN Developer', 'Java Developer']
+  const roles = ['MERN Stack Developer','React Developer', 'Frontend Developer']
   const [roleIndex, setRoleIndex] = useState(0)
   const [glitching, setGlitching] = useState(false)
 

@@ -4,27 +4,25 @@ function Projects() {
       title: 'Job Portal',
       img: "https://res.cloudinary.com/izq5hlmv/image/upload/v1788921959/img.png",
       tagline:
-        'Real-time platform connecting food donors, NGOs, and volunteers to cut food waste and reach people in need faster.',
-      tech: ['MongoDB', 'Express', 'React', 'Node.js', 'Socket.io', 'Google Maps'],
-      github: '#',
-      live: '#',
+      'Real-time platform connecting food doA full-stack job portal platform where employers can post jobs and candidates can search, filter, and apply in real time. Features include user authentication, role-based dashboards, resume uploads, and live job notifications.',
+      tech: ['MongoDB', 'Express', 'React', 'Node.js', 'Google Maps',  'Tailwind CSS'],
+      live: 'https://web-jobportal.netlify.app/',
     },
     {
-      title: 'Smart Farming Assistant',
+      title: 'Food Bridge',
        img: "https://res.cloudinary.com/izq5hlmv/image/upload/v1788922717/img2.png",
       tagline:
-        'Gives farmers district-based weather, crop, and market price insights with rule-based recommendations to plan smarter.',
-      tech: ['MongoDB', 'Express', 'React', 'Node.js', 'Chart.js'],
-      github: '#',
-      live: '#',
+        'FoodBridge is a MERN-based platform that connects restaurants and event organizers with NGOs to redistribute surplus food and reduce food waste.',
+      tech: ['MongoDB', 'Express', 'React', 'Node.js', 'socket io', 'JWT Auth', 'Tailwind CSS'],
+      live: 'https://foodbridge-one-chi.vercel.app',
     },
     {
       title: 'Campus Recruitment Portal',
+      img: "https://res.cloudinary.com/izq5hlmv/image/upload/v1788935124/spiderman_screenshot_1280x720.png",
       tagline:
-        'Streamlines campus placements with secure role-based access for admins and students to manage the entire process.',
-      tech: ['MongoDB', 'Express', 'React', 'Node.js', 'JWT Auth'],
-      github: '#',
-      live: '#',
+        'CineScope is a sleek, Netflix-inspired movie discovery app built with React and the TMDB API. It features a dynamic hero carousel, trending/top-rated/upcoming movie rows, full search with genre filtering, and a local favorites watchlist.',
+      tech: ['React', 'API', 'Routing', 'Tailwind CSS'],
+      live: 'https://cini-scope.netlify.app/',
     },
   ]
 
@@ -162,21 +160,6 @@ function Projects() {
               >
                 Live Demo →
               </a>
-
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="
-                  text-sm font-semibold
-                  text-white/60
-                  hover:text-white
-                  transition
-                "
-              >
-                GitHub ↗
-              </a>
-
             </div>
 
           </div>
