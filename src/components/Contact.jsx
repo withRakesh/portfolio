@@ -15,7 +15,7 @@ function Contact() {
         </div>
 
         <a
-          href="mailto:your.email@example.com"
+          href="mailto:rakesh2003cs@gmail.com"
           className="inline-block bg-accent hover:bg-accent-hover transition text-white font-semibold px-8 py-3 rounded whitespace-nowrap"
         >
           Contact Me

@@ -7,7 +7,7 @@
 
         <div className="flex gap-5">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/withRakesh"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-accent transition"
@@ -15,7 +15,7 @@
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/rakesh19052005"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-accent transition"

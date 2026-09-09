@@ -17,7 +17,7 @@ function Projects() {
       live: 'https://foodbridge-one-chi.vercel.app',
     },
     {
-      title: 'Campus Recruitment Portal',
+      title: 'Cini Scope',
       img: "https://res.cloudinary.com/izq5hlmv/image/upload/v1788935124/spiderman_screenshot_1280x720.png",
       tagline:
         'CineScope is a sleek, Netflix-inspired movie discovery app built with React and the TMDB API. It features a dynamic hero carousel, trending/top-rated/upcoming movie rows, full search with genre filtering, and a local favorites watchlist.',
@@ -39,7 +39,7 @@ function Projects() {
       <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-white">
-            Featured Projects
+             Projects
           </h2>
 
           <p className="text-muted mt-3 max-w-xl leading-relaxed">
